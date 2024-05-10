@@ -142,4 +142,32 @@ while (i < numericArray.length && numericArray[i] !== 32) {
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
+
+console.log("-------------------------------------Esercizio 10-------------------------------------");
+
 const charactersArray = ["g", "n", "u", "z", "d"];
+const newArray = [];
+console.log("Array vuoto", newArray);
+for (let index = 0; index < charactersArray.length; index++) {
+  switch (charactersArray[index]) {
+    case "g":
+      newArray.push("6");
+      break;
+    case "n":
+      newArray.push("12");
+      break;
+    case "u":
+      newArray.push("19");
+      break;
+    case "z":
+      newArray.push("21");
+      break;
+    case "d":
+      newArray.push("4");
+      break;
+
+    default:
+      break;
+  }
+}
+console.log("Array pieno", newArray);
