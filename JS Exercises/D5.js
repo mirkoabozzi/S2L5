@@ -79,9 +79,29 @@ console.log(cars);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+console.log("-------------------------------------Esercizio 6-------------------------------------");
+
+cars.push({
+  brand: "Alfa",
+  model: "Mito",
+  color: "black",
+  trims: ["sport", "confort"],
+});
+
+// console.log(cars);
+
+for (let index = 0; index < cars.length; index++) {
+  cars[index].trims.pop();
+}
+
+console.log(cars);
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
+
+console.log("-------------------------------------Esercizio 7-------------------------------------");
+
 const justTrims = [];
 
 /* ESERCIZIO 8
