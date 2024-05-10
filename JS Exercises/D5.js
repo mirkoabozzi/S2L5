@@ -38,6 +38,7 @@ for (let index = pets.length - 1; index >= 0; index--) {
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
 console.log("-------------------------------------Esercizio 4-------------------------------------");
+
 pets.shift();
 pets.push("cat");
 console.log(pets);
@@ -67,6 +68,11 @@ const cars = [
 ];
 
 console.log("-------------------------------------Esercizio 5-------------------------------------");
+
+cars[0]["licensePlate"] = "1234";
+cars[1]["licensePlate"] = "1234";
+cars[2]["licensePlate"] = "1234";
+console.log(cars);
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
