@@ -25,13 +25,14 @@ button {
     border:none;
     background-color: transparent;
     color: white;
+    padding: 8px;
+    margin-left: 15px;
 }
 #banner {
     background-color: #F66600;
     text-align: center;
     color: white;
     padding: 10px;
-    margin
 }
 #banner p{
     text-align: center;
@@ -41,12 +42,11 @@ main {
 }
 #guide {
     background-image: url(../images/bg-image.png);
-    background-size:cover;
+    background-size:contain;
     color: white;
     text-align: center;
     padding: 60px;
     margin: 20px auto;
-    
 }
 #guide p{
     text-align: center;
@@ -56,6 +56,10 @@ main {
     text-align: center;
     background-color: white;
 }
+#cards h2{
+    padding-top: 20px;
+    padding-left: 30px;
+}
 #card1{
     background-image: url(../images/img_1.jpg);
     width: 250px;
@@ -64,8 +68,8 @@ main {
     border-radius: 20px;
     display: inline-block;
     margin: 20px 50px;
-   
-    
+    box-shadow: 3px 3px 3px 3px rgb(206, 218, 231);
+    background-position: center; 
 }
 #card2{
     background-image: url(../images/img_2.jpg);
@@ -75,7 +79,8 @@ main {
     border-radius: 20px;
     display: inline-block;
     margin: 20px 50px;
-    
+    box-shadow: 3px 3px 3px 3px rgb(206, 218, 231);
+    background-position: center;
 }
 #card3{
     background-image: url(../images/img_3.jpg);
@@ -85,7 +90,8 @@ main {
     border-radius: 20px;
     display: inline-block;
     margin: 20px 50px;
-
+    box-shadow: 3px 3px 3px 3px rgb(206, 218, 231);
+    background-position: center;
 }
 #card4{
     background-image: url(../images/img_4.jpg);
@@ -95,45 +101,43 @@ main {
     border-radius: 20px;
     display: inline-block;
     margin: 20px 50px;
+    box-shadow: 3px 3px 3px 3px rgb(206, 218, 231);
+    background-position: center;
 }
 article {
     text-align: center;
 }
-
+article h2{
+    padding-bottom: 20px;
+}
 #cards h2, p {
     text-align: left;
 }
 
 article img{
-    margin: 20px auto;
+    margin: 30px auto 0px auto;
     width: 95%;
 }
-
-
 footer{
     background-color: #212F3E;
     text-align: center;
-    padding: 
 }
-
 #footerlogo{
-   padding: 50px
-   
-   
+   padding: 50px 
+}
+#footerlogo img{
+    max-height: 70px;
 }
 #top{
     background-color: #364759;
-    padding: 20px;
-    
+    padding: 20px; 
 }
 span {
-    color: #146274;
-    
+    color: #146274;   
 }
 footer a{
     color: white;
 }
-
 button{
     font-size: 1.1rem;
 }
