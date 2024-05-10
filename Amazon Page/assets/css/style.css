@@ -5,6 +5,10 @@
    max-height: 40px;
    margin: 10px;
    }
+body{
+    background-color: #E9EDEE;
+    max-width: 1920px;
+}
 nav {
     background-color: #364759;
 }
@@ -20,13 +24,92 @@ button {
     padding: 10px;
     margin
 }
+#banner p{
+    text-align: center;
+}
 main {
     margin: 20px;
 }
 #guide {
     background-image: url(../images/bg-image.png);
+    background-size:cover;
     color: white;
     text-align: center;
     padding: 50px;
-    margin-top: 20px;
+    margin: 20px auto;
+    
+}
+#cards{
+    text-align: center;
+    background-color: white;
+}
+#card1{
+    background-image: url(../images/img_1.jpg);
+    width: 250px;
+    height: 350px;
+    background-size:cover;
+    border-radius: 20px;
+    display: inline-block;
+   
+    
+}
+#card2{
+    background-image: url(../images/img_2.jpg);
+    width: 250px;
+    height: 350px;
+    background-size:cover;
+    border-radius: 20px;
+    display: inline-block;
+    
+    
+}
+#card3{
+    background-image: url(../images/img_3.jpg);
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+    
+
+}
+#card4{
+    background-image: url(../images/img_4.jpg);
+    width: 250px;
+    height: 350px;
+    background-size:cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+article {
+    text-align: center;
+}
+
+#cards h2, p {
+    text-align: left;
+}
+
+article img{
+    margin: 20px auto;
+    width: 95%;
+}
+
+
+footer{
+    background-color: #212F3E;
+    text-align: center;
+    padding: 
+}
+
+#footerlogo{
+   padding: 50px
+   
+}
+#top{
+    background-color: #364759;
+    padding: 20px;
+    
+}
+#link {
+    text-decoration: none;
 }
