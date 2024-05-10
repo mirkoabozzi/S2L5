@@ -13,3 +13,20 @@ button {
     background-color: transparent;
     color: white;
 }
+#banner {
+    background-color: #F66600;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin
+}
+main {
+    margin: 20px;
+}
+#guide {
+    background-image: url(../images/bg-image.png);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
