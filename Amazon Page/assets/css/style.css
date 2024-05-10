@@ -1,1 +1,15 @@
-/* Your styles here */
+#logo{
+    background-color: #212F3E;
+    }
+#logo img{
+   max-height: 40px;
+   margin: 10px;
+   }
+nav {
+    background-color: #364759;
+}
+button {
+    border:none;
+    background-color: transparent;
+    color: white;
+}
