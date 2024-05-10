@@ -8,6 +8,15 @@
 body{
     background-color: #E9EDEE;
     max-width: 1920px;
+    min-width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.2rem;
 }
 nav {
     background-color: #364759;
@@ -35,9 +44,13 @@ main {
     background-size:cover;
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 60px;
     margin: 20px auto;
     
+}
+#guide p{
+    text-align: center;
+    margin-top: 20px;
 }
 #cards{
     text-align: center;
@@ -50,6 +63,7 @@ main {
     background-size:cover;
     border-radius: 20px;
     display: inline-block;
+    margin: 20px 50px;
    
     
 }
@@ -60,7 +74,7 @@ main {
     background-size:cover;
     border-radius: 20px;
     display: inline-block;
-    
+    margin: 20px 50px;
     
 }
 #card3{
@@ -70,7 +84,7 @@ main {
     background-size: cover;
     border-radius: 20px;
     display: inline-block;
-    
+    margin: 20px 50px;
 
 }
 #card4{
@@ -80,6 +94,7 @@ main {
     background-size:cover;
     border-radius: 20px;
     display: inline-block;
+    margin: 20px 50px;
 }
 article {
     text-align: center;
@@ -104,12 +119,21 @@ footer{
 #footerlogo{
    padding: 50px
    
+   
 }
 #top{
     background-color: #364759;
     padding: 20px;
     
 }
-#link {
-    text-decoration: none;
+span {
+    color: #146274;
+    
+}
+footer a{
+    color: white;
+}
+
+button{
+    font-size: 1.1rem;
 }
